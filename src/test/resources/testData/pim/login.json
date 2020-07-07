@@ -1,0 +1,23 @@
+{
+  "Login Data"	:
+  [
+    {
+      "emailID"    : "nikhil.miranda+106@unbxd.com",
+      "password"   : "unbxd@123",
+      "company"    : "autoTEST",
+      "role"       : "admin",
+      "updatedRole": "updated admin",
+      "name"       : "qa_AUTO_Nikhil_admin",
+      "updatedName": "qa_AUTO_Nikhil_admin__U__"
+    },
+    {
+      "emailID"    : "nikhil.miranda+106@unbxd.com",
+      "password"   : "unbxd@123",
+      "company"    : "autoTEST",
+      "role"       : "not_admin",
+      "updatedRole": "updated admin",
+      "name"       : "qa_AUTO_Nikhil_notAdmin",
+      "updatedName": "qa_AUTO_Nikhil_notAdmin__U__"
+    }
+  ]
+}

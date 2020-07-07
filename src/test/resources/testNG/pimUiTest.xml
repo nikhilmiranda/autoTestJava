@@ -1,0 +1,124 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Unbxd PIM Ui Tests">
+    <test name="Rest Organisation Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.ResetOrg_Tests"/>
+        </classes>
+    </test>
+    <test name="Organisation Profile Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests"/>
+        </classes>
+    </test>
+    <test name="User Profile Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests"/>
+        </classes>
+    </test>
+    <test name="Roles Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Roles_Tests"/>
+        </classes>
+    </test>
+    <test name="Member Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Member_Tests"/>
+        </classes>
+    </test>
+    <test name="Property Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Property_Tests"/>
+        </classes>
+    </test>
+    <test name="Product Import Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests"/>
+        </classes>
+    </test>
+    <test name="Import SFTP Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests"/>
+        </classes>
+    </test>
+    <test name="Product Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Product_Tests"/>
+        </classes>
+    </test>
+    <test name="Assets Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Assets_Tests"/>
+        </classes>
+    </test>
+    <test name="Product Group Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests"/>
+        </classes>
+    </test>
+    <test name="Catalog Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Catalog_Tests"/>
+        </classes>
+    </test>
+    <test name="Tasks Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Tasks_Tests"/>
+        </classes>
+    </test>
+    <test name="Advance Filters Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests"/>
+        </classes>
+    </test>
+
+    <test name="Certify Products Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests"/>
+        </classes>
+    </test>
+    <test name="Activity Log Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests"/>
+        </classes>
+    </test>
+    <test name="Product Actions Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests"/>
+        </classes>
+    </test>
+    <test name="Partner Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Partner_Tests"/>
+        </classes>
+    </test>
+    <test name="Adapter Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Adapter_Tests"/>
+        </classes>
+    </test>
+    <test name="Exports Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests"/>
+        </classes>
+    </test>
+    <test name="User Permissions For Default">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault"/>
+        </classes>
+    </test>
+    <test name="User Permissions For Hide">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide"/>
+        </classes>
+    </test>
+    <test name="User Permissions For Read Only">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly"/>
+        </classes>
+    </test>
+    <test name="WorkFlow Tests">
+        <classes>
+            <class name="unbxdTests.testNg.ui.pim.Workflow_Tests"/>
+        </classes>
+    </test>
+</suite>

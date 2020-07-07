@@ -1,0 +1,20 @@
+{
+  "Task Data"	:
+  [
+    {
+      "taskTemplateName"         : "Auto Task Template Test 1",
+      "taskTemplateNameUpdated"  : "Auto Task Template Test 1 - Updated",
+      "taskName"                 : "Auto Task Test 1",
+      "taskNameUpdated"      :"Auto Task Test 1 - Updated",
+      "propertyDataType1"    : "String",
+      "propertyName1"        : "Price",
+      "propertyDataType2"    : "String",
+      "propertyName2"        : "Fabric Care",
+      "propertyGroup"        : "Property Group A",
+      "taskName2"                 : "Auto Task Test 2",
+      "taskNameUpdated2    "      : "Auto Task Test 2 - Updated",
+      "taskName3"                 : "Auto Task Test 3",
+      "taskNameUpdated3    "      : "Auto Task Test 3 - Updated"
+    }
+  ]
+}

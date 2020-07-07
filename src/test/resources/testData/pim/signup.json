@@ -1,0 +1,17 @@
+{
+  "SignUp Data"	:
+  [
+    {
+      "emailID"   : "abhishek.sahu+91@unbxd.com",
+      "password"  : "abhishek",
+      "company"   : "unbxd",
+      "role"      : "admin"
+    },
+    {
+      "emailID"   : "abhishek.sahu+93@unbxd.com",
+      "password"  : "abhishek",
+      "company"   : "unbxd",
+      "role"      : "employee"
+    }
+  ]
+}

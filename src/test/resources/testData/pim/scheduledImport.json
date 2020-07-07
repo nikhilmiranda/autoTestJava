@@ -1,0 +1,12 @@
+{
+  "Scheduled Import Data":
+  [
+    {
+      "importName": "Auto Import 1",
+      "importType": "Product Import",
+      "description": "Auto Description"
+
+
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Catalog Data":
+  [
+    {
+      "catalogName": "Auto Catalog 1",
+      "property1": "Size",
+      "property2": "Color",
+      "facets1": "Color",
+      "facets2": "Fabric"
+    }
+  ]
+}

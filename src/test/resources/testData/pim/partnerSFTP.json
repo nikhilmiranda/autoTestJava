@@ -1,0 +1,13 @@
+{
+  "Partner SFTP Data":
+  [
+    {
+      "host": "54.208.153.219",
+      "port": "22",
+      "userName": "abhidemon",
+      "password": "adapt-secular-ayah-mnemonic",
+      "path": "/srv/abhidemon/sunil",
+      "sftpName" : "Auto Partner SFTP 1"
+    }
+  ]
+}

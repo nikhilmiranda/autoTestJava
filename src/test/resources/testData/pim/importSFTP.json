@@ -1,0 +1,14 @@
+{
+  "Import SFTP Data":
+  [
+    {
+      "host": "54.208.153.219",
+      "port": "22",
+      "userName": "abhidemon",
+      "password": "adapt-secular-ayah-mnemonic",
+      "path": "/srv/abhidemon/nikhilAutoTest",
+      "sftpName" : "Import SFTP 1",
+      "sftpNameUpdated" : "Updated Import SFTP 1"
+    }
+  ]
+}

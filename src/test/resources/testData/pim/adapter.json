@@ -1,0 +1,17 @@
+{
+  "Adapter Data":
+  [
+    {
+      "adapterName": "Auto Adapter 1",
+      "adapterDesc": "Automation suite adapter",
+      "adapterProperty1" : "Image",
+      "adapterProperty2" : "Color",
+      "adapterProperty3" : "Category",
+      "adapterProperty4" : "Return Policy",
+      "adapterProperty5" : "More Details",
+      "adapterProperty6" : "Product Details",
+      "adapterProperty7" : "Price",
+      "adapterProperty8" : "Date Of Manufaturing"
+    }
+  ]
+}

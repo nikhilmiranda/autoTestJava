@@ -1,0 +1,15 @@
+{
+  "Product Group":
+  [
+    {
+      "productGroupName"                     : "101",
+      "productDesc"                          : "Product Test 1",
+      "dynaProductGroupName"                 : "Dynamic Pro grp",
+      "dynaProductDesc"                      : "Dynamic Product Test 1",
+      "updatedProductGroupName"              : "101",
+      "updatedProductDesc"                   : "Updated Product Test 1",
+      "updatedDynaProductGroupName"          : "Dynamic Pro grp",
+      "updatedDynaProductDesc"               : "Dynamic Product Test 1"
+    }
+  ]
+}

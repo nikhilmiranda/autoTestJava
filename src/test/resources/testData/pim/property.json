@@ -1,0 +1,12 @@
+{
+  "Property Data": [
+    {
+      "propertyName": "Property Test 1",
+      "propertyDataType": "Number",
+      "propertyNameUpdated": "Updated Property 1",
+      "propertyGroup": "Property Group A",
+      "variantProperty": "Fabric",
+      "propertiesImportedFromProductInputFile": "Product Id,Image,Product Name,Price,Product Details,Color,Gender,Size,Pattern,Sleeve,Fit,Fabric,Fabric Care,Suitable For,Neck Type,Payment Mode,Return Policy,Parent Id"
+    }
+  ]
+}

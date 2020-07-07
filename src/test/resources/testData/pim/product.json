@@ -1,0 +1,21 @@
+{
+  "Product Data"	:
+  [
+    {
+      "productID"            : "101",
+      "productName"          : "Product Test 1",
+      "propertyNameUpdated"  : "Updated Product 1"
+    },
+
+    {
+      "Product Id": 20,
+      "Product Name": "snooky Men Vest",
+      "propertyNameUpdated"  : "Updated Product 1"
+    },
+    {
+      "Variant Product Id": "102",
+      "Product Name": "Variant 1",
+      "propertyNameUpdated"  : "Updated Variant 1"
+    }
+  ]
+}
