@@ -28,7 +28,7 @@ public class ProductImport_Tests extends BaseTest {
     int totalLoginDataRow = 2;
     int totalLoginColumnEntry = 7;
 
-    String productInputFile = System.getProperty("user.dir") + "/src/test/resources/testData/pim/suiteProductInputFile.csv";
+    String productInputFile = System.getProperty("user.dir") + "/src/test/resources/testData/pim/suiteProductInputFile.xlsx";
 
     String emailId, password, roleName, propertyName, propertyDataType, updatedPropertyName, propertyGroupName, propertiesImported;
 

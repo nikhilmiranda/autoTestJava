@@ -19,7 +19,7 @@ public class ResetOrg_Tests {
 			orgID = "6dbc50bcdd194e48025a08ee8906666f";
 			baseUrl = "https://pimdev.unbxd.io/";
 		} else {
-			orgID = "00d1f9c9bb099cbf52964d74191d32fa";
+			orgID = "f2b5dbbf6c09935e1f141d76218515b2";
 			baseUrl = "https://pim.unbxd.com/";
 		}
 	}

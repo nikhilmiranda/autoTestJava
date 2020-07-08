@@ -22,11 +22,20 @@ public class ManageImport_Page extends FluentPage {
     @FindBy(how = How.CSS, using = ".qa-new-import .drag-n-drop-uploader-area .secondary-btn")
     FluentWebElement fetchFromSftpButton;
 
-    @FindBy(how = How.CSS, using = ".qa-import-list .primary-btn")
+    @FindBy(how = How.XPATH, using = "//button[@class='btn primary-btn float-right']")
     FluentWebElement proceedButton;
 
-    @FindBy(how = How.CSS, using = ".qa-import-list .secondary-btn")
+    @FindBy(how = How.XPATH, using = "//div[@class='inline-modal-header']")
     FluentWebElement newImportButton;
+
+    @FindBy(how = How.XPATH, using = "//input[@placeholder='Enter import name']")
+    FluentWebElement newImportName;
+
+    @FindBy(how = How.XPATH, using = "//fieldset[@class='form-group form-el-width element element-type-drop-down element-importType single-select']//div[@class='drop-down-button enabled']")
+    FluentWebElement newImportTypeTab;
+
+    @FindBy(how = How.XPATH, using = "//li[contains(@class,'list-item')]")
+    FluentWebElement newImportTypeProductName;
 
     @FindBy(how = How.ID, using = "importFileUpload")
     FluentWebElement uploadButton;
@@ -119,6 +128,9 @@ public class ManageImport_Page extends FluentPage {
     String uploadButtonName = "Upload Button";
     String proceedButtonName = "Proceed Button";
     String newImportButtonName = "New Import Button";
+    String newImportFieldName = "New Import Field";
+    String newImportTypeDropdownName = "New Import Type";
+    String newImportProductName = "New Import Type Product";
     String propertiesHeaderName = "Properties Header";
     String productIDSelectorName = "productID Selector";
     String productNameSelectorName = "productName Selector";
@@ -242,9 +254,13 @@ public class ManageImport_Page extends FluentPage {
     }
 
     public void clickOnProceed() throws InterruptedException {
-//        if(FunctionLibrary.isElementDisplayed(newImportButton, newImportButtonName)){
-//            FunctionLibrary.click(newImportButton, newImportButtonName);
-//        }
+       if(FunctionLibrary.isElementDisplayed(newImportButton, newImportButtonName)){
+           FunctionLibrary.click(newImportButton, newImportButtonName);
+       }
+        FunctionLibrary.input(newImportName, newImportFieldName, "New Auto Import");
+        FunctionLibrary.click(newImportTypeTab,newImportTypeDropdownName);
+        FunctionLibrary.click(newImportTypeProductName,newImportProductName);
+        
         FunctionLibrary.scrollToTop();
         FunctionLibrary.click(proceedButton, proceedButtonName);
     }
