@@ -1,15 +1,2704 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Unbxd PIM Ui Tests]">
+  <test name="Roles Tests(failed)">
     <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
       <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
         <methods>
           <include name="init"/>
           <include name="logout"/>
-          <include name="removePimLogo"/>
         </methods>
       </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="verifyTheRoleDetailsInMembersPage"/>
+          <include name="verifyUpdatingRole"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="addMemberToRole"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Roles Tests(failed) -->
+  <test name="Property Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="verifyPropertiesPageContentWhenThereIsNoProperty"/>
+          <include name="init"/>
+          <include name="editPropertyDetails"/>
+          <include name="createPropertyGroup"/>
+          <include name="searchRolesInPermissionForRoles"/>
+          <include name="returnToOverview"/>
+          <include name="deletePropertyGroup"/>
+          <include name="searchProperty"/>
+          <include name="verifyPropertiesAvailable"/>
+          <include name="verifyPropertyAdditionToProductGroup"/>
+          <include name="tearDown"/>
+          <include name="deleteProperty"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Property Tests(failed) -->
+  <test name="Product Import Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="verifyTotalProductsCount"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Product Import Tests(failed) -->
+  <test name="Product Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="searchProduct"/>
+          <include name="returnToOverview"/>
+          <include name="deleteProduct"/>
+          <include name="verifyVariantPropertyCreation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Product Tests(failed) -->
+  <test name="Assets Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="verifyImageNameUpdate"/>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="verifyAssetAssociationFromManageAssetPage"/>
+          <include name="init"/>
+          <include name="verifyAssetCreation"/>
+          <include name="verifyAssetAssociation"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Assets Tests(failed) -->
+  <test name="Product Group Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="verifyAddingMoreProductsToProductGroup"/>
+          <include name="returnToOverview"/>
+          <include name="verifyTheProductGrpPageWhenThereIsNoProductGrpListing"/>
+          <include name="init"/>
+          <include name="verifyProductRemovalFromProdGrp"/>
+          <include name="verifyApplyingAdvanceFilter"/>
+          <include name="verifyProductGrpNameUpdation"/>
+          <include name="verifyBulkProductGrpDelete"/>
+          <include name="verifyBulkEditOfTextProductInProductGrp"/>
+          <include name="verifyProductDeletionFromProdGrp"/>
+          <include name="verifyAddProductsToProductGrp"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Product Group Tests(failed) -->
+  <test name="Catalog Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="verifyTheOrderOfPropertyAddedToCatalog"/>
+          <include name="init"/>
+          <include name="verifyAddingPropertiesToCatalog"/>
+          <include name="verifyDefaultPropertiesAddedToCatalog"/>
+          <include name="verifyTheProductProperties"/>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="verifyTheCatalogSearchSuggestions"/>
+          <include name="addParentProductToCatalog"/>
+          <include name="openCatalogPage"/>
+          <include name="publishCatalog"/>
+          <include name="verifyTheProductsListedInCatalog"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Catalog Tests(failed) -->
+  <test name="Tasks Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="verifyTaskTemplateCreation"/>
+          <include name="verifyTaskCreationFromScratch"/>
+          <include name="verifyTaskCreationUsingTaskTemplate"/>
+          <include name="returnToOverview"/>
+          <include name="verifyTaskTemplateEdit"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Tasks Tests(failed) -->
+  <test name="Advance Filters Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="verifyTheValuesForProperty"/>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+          <include name="verifyTheOperatorsForSystemProperty"/>
+          <include name="verifyTheProductsDisplayed"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Advance Filters Tests(failed) -->
+  <test name="Certify Products Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="verifyCertifyProduct"/>
+          <include name="verifyTheProductsAddedToLabel"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Certify Products Tests(failed) -->
+  <test name="Activity Log Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="verifyAssetAssociationLog"/>
+          <include name="init"/>
+          <include name="verifyLogWhenOnNoModification"/>
+          <include name="verifyImageLog"/>
+          <include name="verifyActivityLogForAssetCreation"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Activity Log Tests(failed) -->
+  <test name="Product Actions Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="verifyBulkEditOfTextProductInProductGrp"/>
+          <include name="verifyAssigningCategory"/>
+          <include name="verifyAddProductsToProductGrp"/>
+          <include name="returnToOverview"/>
+          <include name="verifyPGAddition"/>
+          <include name="verifyPGCreationAddition"/>
+          <include name="init"/>
+          <include name="verifyAssigningTask"/>
+          <include name="verifyTheAssignedCategory"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Product Actions Tests(failed) -->
+  <test name="Adapter Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="addAdapterProperty_TreeList"/>
+          <include name="verifyPreFilledAdapterProperties"/>
+          <include name="addAdapterProperty_Date"/>
+          <include name="addAdapterProperty_Number"/>
+          <include name="addEmptyAdapterProperty"/>
+          <include name="addAdapterProperty_Boolean"/>
+          <include name="addAdapterProperty_Image"/>
+          <include name="init"/>
+          <include name="performMappingForEmptyProperty"/>
+          <include name="addAdapterProperty_TextArea"/>
+          <include name="verifyTheCountOfMappedProperties"/>
+          <include name="addAdapterProperty_Link"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Adapter Tests(failed) -->
+  <test name="Exports Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="verifyExportWithoutReadinessCheckViaSFTP"/>
+          <include name="verifyExportWithoutReadinessCheckViaEmail"/>
+          <include name="verifyTheExportedFileViaEmail"/>
+          <include name="verifyTheExportedFileViaSFTP"/>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- Exports Tests(failed) -->
+  <test name="User Permissions For Default(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+          <include name="changeAllTheSystemPermissionsToHide"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- User Permissions For Default(failed) -->
+  <test name="User Permissions For Hide(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="changeAllTheSystemPermissionsToHide"/>
+          <include name="verifyIfImportIsHidden"/>
+          <include name="verifyIfTasksIsHidden"/>
+          <include name="verifyIfCatalogIsHidden"/>
+          <include name="init"/>
+          <include name="verifyIfPropertiesIsHidden"/>
+          <include name="verifyIfProductsIsHidden"/>
+          <include name="verifyIfNetworkIsHidden"/>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="verifyOrganisationSetupIsHidden"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- User Permissions For Hide(failed) -->
+  <test name="User Permissions For Read Only(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="returnToWorkFLowListing"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="verifyIfProductsIsHidden"/>
+          <include name="verifyIfPropertiesIsHidden"/>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="verifyOrganisationSetupIsHidden"/>
+          <include name="changeAllTheSystemPermissionsToHide"/>
+          <include name="verifyIfTasksIsHidden"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- User Permissions For Read Only(failed) -->
+  <test name="WorkFlow Tests(failed)">
+    <classes>
+      <class name="unbxdTests.testNg.ui.pim.Product_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Product_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Workflow_Tests">
+        <methods>
+          <include name="verifyWFStatus"/>
+          <include name="returnToWorkFLowListing"/>
+          <include name="verifySchedulingWorkFlow"/>
+          <include name="verifyConfigureExportNode"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Workflow_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ExportProducts_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ExportProducts_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.AdvanceFilter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.AdvanceFilter_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Assets_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Assets_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductImport_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductImport_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToReadOnly -->
+      <class name="unbxdTests.testNg.ui.pim.ImportSFTP_Tests">
+        <methods>
+          <include name="returnToPartnerPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ImportSFTP_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Property_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Property_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Roles_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="navigateToRolesListingPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Roles_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserProfile_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserProfile_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ProductActions_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductActions_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Tasks_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToOverview"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Tasks_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Partner_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToPartnerPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Partner_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToHide">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToHide -->
+      <class name="unbxdTests.testNg.ui.pim.CertifyProduct_Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.CertifyProduct_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.UserPermissions.SetToDefault -->
+      <class name="unbxdTests.testNg.ui.pim.ProductGroup_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ProductGroup_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Catalog_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="returnToCustomAdapterPage"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Catalog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Member_Tests">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Member_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.ActivityLog_Tests">
+        <methods>
+          <include name="returnToOverview"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.ActivityLog_Tests -->
+      <class name="unbxdTests.testNg.ui.pim.Adapter_Tests">
+        <methods>
+          <include name="returnToCustomAdapterPage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- unbxdTests.testNg.ui.pim.Adapter_Tests -->
+    </classes>
+  </test> <!-- WorkFlow Tests(failed) -->
+</suite> <!-- Failed suite [Unbxd PIM Ui Tests] -->

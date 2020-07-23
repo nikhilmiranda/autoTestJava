@@ -105,7 +105,7 @@ public class Property_Tests extends BaseTest {
     public  void verifyPropertiesPageContentWhenThereIsNoProperty() throws InterruptedException {
         openPropertyPageFromManageTab();
         propertyPage.waitForPropertyListingPageToLoad();
-        Assert.assertEquals(propertyPage.getPageContentOfBlankPropertiesListingPage(), "Properties are product characteristics, customizable units of product information, for example, product_color, product_size etc.\nJust enter the property name, select data type, and you have a new property.");
+        Assert.assertEquals(propertyPage.getPageContentOfBlankPropertiesListingPage(), "No results found");
     }
     @Test(priority = 4)
     public void createProperty() {

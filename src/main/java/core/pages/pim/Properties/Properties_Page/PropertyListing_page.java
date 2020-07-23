@@ -59,7 +59,7 @@ public class PropertyListing_page extends FluentPage {
     @FindBy(how = How.CSS, using = ".no-data h2")
     FluentWebElement noResultFound;
 
-    @FindBy(how = How.CSS, using = ".first-time-import")
+    @FindBy(how = How.XPATH, using = "//h2[contains(text(),'No results found')]")
     FluentWebElement blankPropertiesPage;
 
     @FindBy(how = How.CSS, using = ".first-time-import")

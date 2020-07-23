@@ -6,16 +6,16 @@
       "password"   : "unbxd@123",
       "company"    : "autoTEST",
       "role"       : "admin",
-      "updatedRole": "updated admin",
+      "updatedRole": "admin",
       "name"       : "qa_AUTO_Nikhil_admin",
       "updatedName": "qa_AUTO_Nikhil_admin__U__"
     },
     {
-      "emailID"    : "nikhil.miranda+106@unbxd.com",
+      "emailID"    : "nikhil.miranda+107@unbxd.com",
       "password"   : "unbxd@123",
       "company"    : "autoTEST",
       "role"       : "not_admin",
-      "updatedRole": "updated admin",
+      "updatedRole": "updated not_admin",
       "name"       : "qa_AUTO_Nikhil_notAdmin",
       "updatedName": "qa_AUTO_Nikhil_notAdmin__U__"
     }

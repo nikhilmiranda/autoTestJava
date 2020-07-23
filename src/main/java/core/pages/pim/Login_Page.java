@@ -46,7 +46,32 @@ public class Login_Page extends FluentPage {
     public String getUrl() {
         // String url=System.getProperty("baseUrl");
         // return url;
-        String url="https://pim.unbxd.io/";
+        String url="https://pimdev.unbxd.io/";
         return url;
+    }
+
+    public Srting getSSOid(){
+        Response response = RestAssured.given()
+               .when().
+                post("https://pimdev.unbxd.io/api/login").
+                then().contentType("application/json").
+                header("Content-Type", "application/json")
+                .body("email : annapurna.madgi@unbxd.com" , "password : unbxd@123").toString();
+            //    extract().response();
+        String cookie = response.cookie("cookie");
+        System.out.println(cookie);
+        ------
+        JSONObject jsonObj = new JSONObject().put("email","annapurna.madgi@unbxd.com").put("password","unbxd@123");
+        given()
+            .contentType("application/json")
+            .body(jsonObj.toString())
+        .when()
+            .post("https://pimdev.unbxd.io/api/login")
+        .then()
+            .assertThat()
+            
+
+
+
     }
 }

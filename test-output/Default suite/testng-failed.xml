@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="unbxdTests.testNg.ui.pim.OrganisationProfile_Tests">
+      <class name="unbxdTests.testNg.ui.pim.ResetOrg_Tests">
         <methods>
-          <include name="init"/>
-          <include name="logout"/>
-          <include name="removePimLogo"/>
+          <include name="resetOrganization"/>
         </methods>
-      </class> <!-- unbxdTests.testNg.ui.pim.OrganisationProfile_Tests -->
+      </class> <!-- unbxdTests.testNg.ui.pim.ResetOrg_Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
